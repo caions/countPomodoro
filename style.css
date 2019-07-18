@@ -41,8 +41,12 @@ html{
     border: 5px 5px;
 }
 
+input[type="time"]::-webkit-clear-button 
+{
+    display: none;
+}
+
 input[type="time"]::-webkit-inner-spin-button
 {
-    margin: 0;
-    -webkit-appearance: none;
+    display: none;
 }
