@@ -1,13 +1,15 @@
-#circle{
-    border-radius:100%;
-    width:350px;
-    height:310px;
-    background-color:#ff0d31;
+#circle {
+
+    border-radius: 100%;
+    width: 350px;
+    height: 310px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    }
+    border: 2px solid #d06e6e;
+    background: linear-gradient(#ffc6bf 0%, #a42323 50%, #882625 64%);
+}
 
 #app{
     height :230px;
